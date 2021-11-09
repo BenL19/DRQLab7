@@ -26,7 +26,7 @@ app.use(bodyParser.json())
 const mongoose = require('mongoose');
 
 // Creating a variable to assign to the cluster link
-const strConnection = 'mongodb+srv://admin:admin@cluster0.8taek.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const strConnection = 'mongodb+srv://admin:admin@cluster0.rs9rk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 main().catch(err => console.log(err));
 
